@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+h1{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+}
+h2{
+    border-bottom: 2px solid black;
+}
+.container{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: lightgrey;
+}
