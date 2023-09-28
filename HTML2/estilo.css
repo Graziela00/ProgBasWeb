@@ -1,8 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 940px; 
     margin: 0 auto; 
     padding: 10px; 
+    width: 940px;
 }
 
 h1 {
@@ -18,11 +18,24 @@ h2 {
 figure {
     text-align: center;
     background-color: whitesmoke;
-    font-family: lightgrey;
-    margin: 15px 0; 
-    padding: 30px; 
+    color: lightgrey;
+    padding: 15px;
+    margin: 30px; /* Afasta as figuras dos cantos da tela */
+    margin-top: 30px; /* Afasta a figura da caixa anterior */
+    margin-bottom: 30px; /* Afasta a figura da caixa posterior */
 }
 
 figure img {
-    margin: 10px; 
+    width: 100%; /* Define a largura máxima como 100% do espaço disponível */
+}
+  
+
+.Matriz-Musicdot{
+    width: 550px;
+    margin: 0 auto; /* Serve para centralizar o conteúdo na página */ 
+}
+
+.Familia-Fupfeln{
+    width: 275px; /* Define a largura desejada */
+    float: right; /* Alinha à direita */
 }
