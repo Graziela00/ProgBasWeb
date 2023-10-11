@@ -21,12 +21,14 @@ figure {
     color: lightgrey;
     padding: 15px;
     margin: 30px; /* Afasta as figuras dos cantos da tela */
-    margin-top: 30px; /* Afasta a figura da caixa anterior */
-    margin-bottom: 30px; /* Afasta a figura da caixa posterior */
+    margin-top: 30px; /* Afasta a figura da caixa anterior   cima */
+    margin-bottom: 30px; /* Afasta a figura da caixa posterior  baixo    se for so margin vai td lado*/
+    /* padding espaço entre borda e a pl por dentro*/
 }
 
 figure img {
-    max-width: 100%; /* Define a largura máxima como 100% do espaço disponível */
+    max-width: 100%; /* Define a largura máxima (img td q for figura) 
+    como 100% do espaço disponível */
 }
   
 
@@ -45,3 +47,31 @@ figure img {
     width: 940px;
     margin: 0 auto; /* Serve para centralizar o conteúdo na página */ 
 } 
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+  }
+  
+  textarea {
+    height: 300px;
+  }
+  
+  button {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+  }
