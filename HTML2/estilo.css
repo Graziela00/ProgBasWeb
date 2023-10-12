@@ -75,3 +75,13 @@ figure img {
     font-weight: bold;
     cursor: pointer;
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.correspondencia, .telefones {
+    width: 90%; /* ajuste a largura conforme necessário */
+    padding: 50px;
+}
