@@ -31,7 +31,6 @@ figure img {
     como 100% do espaço disponível */
 }
   
-
 .matriz-musicdot{
     width: 550px;
     margin: 0 auto; /* Serve para centralizar o conteúdo na página */ 
@@ -41,7 +40,6 @@ figure img {
     width: 275px; /* Define a largura desejada */
     float: right; /* Alinha à direita */
 }
-
 
 .container{
     width: 940px;
@@ -55,7 +53,7 @@ figure img {
   }
   
   input[type="text"],
-  input[type="tel"],
+  input[type="telefone"],
   input[type="email"],
   textarea {
     width: 500px;
@@ -64,7 +62,7 @@ figure img {
   }
   
   textarea {
-    height: 300px;
+    height: 200px;
   }
   
   button {
@@ -74,6 +72,7 @@ figure img {
     color: black;
     font-weight: bold;
     cursor: pointer;
+    
   }
 
   .container {
@@ -84,4 +83,10 @@ figure img {
 .correspondencia, .telefones {
     width: 90%; /* ajuste a largura conforme necessário */
     padding: 50px;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
 }
